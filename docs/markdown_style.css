@@ -1,0 +1,119 @@
+@page {
+  margin: 0; /* Removes page-level margins */
+}
+
+body {
+  background-color: #1e1e1e; /* Dark gray background */
+  color: #e0e0e0; /* Light text */
+  font-family: 'Inter', sans-serif; /* Modern sans-serif font */
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff; /* White headings */
+  padding: 0; /* Ensure no padding */
+  border: 0; /* Ensure no borders */
+}
+
+h1 {
+  font-size: 2.2rem; /* Slightly smaller */
+  border-bottom: 2px solid #333; /* Keep only this border */
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3, h4, h5, h6 {
+  font-size: 1.5rem; /* Adjust font size */
+  padding-top: 0.5rem; /* Add top padding for headers below h2 */
+}
+
+p {
+  font-size: 0.9rem; /* Slightly smaller */
+  padding: 0;
+  border: 0;
+}
+
+a {
+  color: #64b5f6; /* Blue links */
+  text-decoration: none;
+  padding: 0;
+  border: 0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+blockquote {
+  border-left: 4px solid #64b5f6; /* Highlighted quote */
+  padding-left: 1rem;
+  color: #b0bec5;
+  font-style: italic;
+  border: 0; /* Reset borders except for the left */
+}
+
+code {
+  background: #1e1e1e;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.85rem; /* Slightly smaller */
+  border: 0; /* Ensure no extra borders */
+}
+
+pre {
+  background: #1e1e1e;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-size: 0.85rem; /* Slightly smaller */
+  border: 0; /* Remove unnecessary borders */
+}
+
+ul, ol {
+  padding-left: 2rem; /* Indent instead of margin */
+  border: 0;
+}
+
+li {
+  font-size: 0.9rem; /* Slightly smaller */
+  padding: 0;
+  border: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 0; /* Reset borders */
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 0.7rem 0.9rem; /* Slightly smaller padding */
+  text-align: left;
+}
+
+th {
+  background-color: #1e1e1e;
+  font-size: 0.9rem;
+}
+
+img {
+  padding: 0.5rem;
+  display: block;
+  max-width: 40%;
+  margin: 0 auto;
+  border: 0; /* Remove borders around images */
+  border-radius: 12px; /* Rounded corners with larger radius */
+}
+
+hr {
+  border: 0;
+  height: 1px; /* Adjust thickness */
+  background-color: #ffffff; /* White line */
+  margin: 0; /* Remove any default margins */
+}
